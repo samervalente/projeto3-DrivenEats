@@ -6,17 +6,26 @@ body{
     background-color:#E5E5E5;
 }
 
+.container{
+    margin-bottom:25px;
+    font-family: 'Roboto';
+    max-width:480px;
+}
+.container > div {
+    width:480px;
+    padding-left:10px;
+}
 
 .titulo{
     background-color:#CF2B2B;
-    width:100%;
     height:92px;
     display:flex;
     flex-direction:column;
     justify-content:center;
-    padding: 0px 10px;
     color:white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position:fixed;
+    top:0;
 }
 
 .titulo h1{
@@ -31,12 +40,6 @@ body{
     font-family: 'Roboto';
 }
 
-.container{
-    margin-left:10px;
-    margin-bottom:25px;
-    font-family: 'Roboto';
-}
-
 .container h3{
     margin-bottom:17px;
     font-family: 'Righteous';
@@ -45,9 +48,20 @@ body{
     color:#333333;
 }
 
+.container:first-child{
+    margin-top:120px;
+}
+
+.container:last-child{
+    margin-bottom:3000px;
+}
+
+.main-section-produtos{
+    margin:100px 0px;
+}
+
 .produtos{
     margin-top:27px;
-
 }
 
 .section-produto{
@@ -74,6 +88,7 @@ body{
     width:144px;
     height:87px;
     border-radius:4px;
+    object-fit:cover;
 }
 
 .nomeproduto{
@@ -90,5 +105,39 @@ font-size:16px;
 .preco{
     font-weight:400;
     font-size:16px;
+}
+
+.info-pedidos{
+    background-color:white;
+    height:92px;
+    position:fixed;
+    bottom:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.selecionar{
+    background-color:#CBCBCB;
+    width:364px;
+    height:61px;
+    display:Flex;
+    justify-content:center;
+    align-items:center;
+    color:#FFFFFF;
+    font-size:20px;
+    border-radius:50px;
+  
+}
+
+
+@media (min-width: 768px) and (min-width:1000px){
+    .container{
+        margin: 0 auto;
+        padding-left:10px;
+        width: 480px;
+    }
+
+ 
 }
 
