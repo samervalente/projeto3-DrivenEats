@@ -25,33 +25,37 @@
         <div class="produtos">
             <h3> Primeiro, seu prato</h3>
             <div class="section-produto">
-                <div class="produto-content">
+                <div onclick="selecionarproduto(this)" class="produto-content">
                     <img src="images/pratos/tacaca.jpeg" alt="">
                     <p class="nomeproduto">Tacacá</p>
                     <p class="descricaoproduto">Um pouco de goma, <br>
                     e muito camarão!</p>
                     <p class="preco">R$ 18,00</p>
+                    <ion-icon name="checkmark-circle-outline" class="icone hidden"></ion-icon>
                 </div>
 
-                <div class="produto-content">
+                <div onclick="selecionarproduto(this)" class="produto-content">
                     <img src="/images/pratos/vatapa.jpg" alt="">
                     <p class="nomeproduto">Vatapá de Frango</p>
                     <p class="descricaoproduto">Acompanha farofa e pimenta 
                     <p class="preco">R$ 14,50</p>
+                    <ion-icon name="checkmark-circle-outline" class="icone hidden"></ion-icon>
                 </div>
 
-                <div class="produto-content">
+                <div onclick="selecionarproduto(this)" class="produto-content">
                     <img src="/images/pratos/pratofeito.jpg" alt="">
                     <p class="nomeproduto">Prato Feito</p>
                     <p class="descricaoproduto">Feijão, arroz, carne, salada e batata frita
                     <p class="preco">R$ 12,00</p>
+                        <ion-icon name="checkmark-circle-outline" class="icone hidden"></ion-icon>
                 </div>
                 
-                <div class="produto-content">
+                <div onclick="selecionarproduto(this)" class="produto-content">
                     <img src="/images/pratos/yingyang.png" alt="">
                     <p class="nomeproduto">Frango Ying Yang</p>
                     <p class="descricaoproduto">Frango, salada, molho e batata frita
                     <p class="preco">R$ 14,90</p>
+                    <ion-icon name="checkmark-circle-outline" class="icone hidden"></ion-icon>
                 </div>
             </div>
         </div>
@@ -59,32 +63,36 @@
         <div class="produtos">
             <h3> Agora, sua bebida</h3>
             <div class="section-produto">
-                <div class="produto-content">
+                <div onclick="selecionarproduto(this)" class="produto-content">
                     <img src="/images/combo.jpg" alt="">
                     <p class="nomeproduto">Combo 3 latas</p>
                     <p class="descricaoproduto">
                         Guaraná, coca-cola e fanta laranja (350ml)
                     </p>
                     <p class="preco">R$ 12,50</p>
+                        <ion-icon name="checkmark-circle-outline" class="icone hidden"></ion-icon>
                 </div>
 
-                <div class="produto-content">
+                <div onclick="selecionarproduto(this)" class="produto-content">
                     <img src="/images/cocacola.jpg" alt="">
                     <p class="nomeproduto">Coca Cola</p>
                     <p class="descricaoproduto">Coquinha 350ml</p>
                     <p class="preco">R$ 4,90</p>
+                    <ion-icon name="checkmark-circle-outline" class="icone hidden"></ion-icon>
                 </div>
-                <div class="produto-content">
+                <div onclick="selecionarproduto(this)" class="produto-content">
                     <img src="/images/kuat.png" alt="">
                     <p class="nomeproduto">Fanta Guaraná</p>
                     <p class="descricaoproduto">Lata 350ml</p>
                     <p class="preco">R$ 4,90</p>
+                    <ion-icon name="checkmark-circle-outline" class="icone hidden"></ion-icon>
                 </div>
-                <div class="produto-content">
+                <div onclick="selecionarproduto(this)" class="produto-content">
                     <img src="/images/pepsi.jpg" alt="">
                     <p class="nomeproduto">Pepsi</p>
                     <p class="descricaoproduto">Lata 350ml</p>
                     <p class="preco">R$ 4,90</p>
+                    <ion-icon name="checkmark-circle-outline" class="icone hidden"></ion-icon>
                 </div>
             </div>
         </div>
@@ -92,25 +100,28 @@
         <div class="produtos">
             <h3> Por fim, sua sobremesa</h3>
             <div class="section-produto">
-                <div class="produto-content">
+                <div onclick="selecionarproduto(this)" class="produto-content">
                     <img src="/images/torta.jpg" alt="">
                     <p class="nomeproduto">Torta de Limão</p>
                     <p class="descricaoproduto">Torta de limão <br> (fatia)</p>
                     <p class="preco">R$ 5,50</p>
+                    <ion-icon name="checkmark-circle-outline" class="icone hidden"></ion-icon>
                 </div>
 
-                <div class="produto-content">
+                <div onclick="selecionarproduto(this)" class="produto-content">
                     <img src="/images/pavê.png" alt="">
                     <p class="nomeproduto">Pavê ou Pacumê</p>
                     <p class="descricaoproduto">Camadas de felicidade (fatia)</p>
                     <p class="preco">R$ 7,90</p>
+                    <ion-icon name="checkmark-circle-outline" class="icone hidden"></ion-icon>
                 </div>
 
-                <div class="produto-content">
+                <div onclick="selecionarproduto(this)" class="produto-content">
                     <img src="/images/bolodepote.jpg" alt="">
                     <p class="nomeproduto">Bolo de pote</p>
                     <p class="descricaoproduto">Muita coisa em tão pouco espaço</p>
                     <p class="preco">R$ 4,00</p>
+                    <ion-icon name="checkmark-circle-outline" class="icone hidden"></ion-icon>
                 </div>
             </div>
         </div>
@@ -121,8 +132,10 @@
             </div>
         </div>
     </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-
-
+    <script src="/javascript/script.js"></script>
 </body>
 </html>
