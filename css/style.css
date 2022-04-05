@@ -4,6 +4,11 @@
 
 body{
     background-color:#E5E5E5;
+    
+}
+
+.hiddenoverflow{
+    overflow: hidden;
 }
 
 .invisible-scrollbar::-webkit-scrollbar {
@@ -156,17 +161,7 @@ ion-icon{
     right:10px;
 }
 
-
-.selecionado ion-icon {
-    display: flex;
-    background-color:rgb(6, 197, 6);
-    border-radius:50px;
-    color:white;
-}
-
-
-
-.comanda{
+.box{
     background-color:#50D074;
     border-radius: 9px;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
@@ -179,32 +174,31 @@ ion-icon{
     z-index:1;
     color:white;
     font-family: 'Roboto';
+    overflow-y:hidden;
     
 }
 
-.info-produtos{
+.confirmarpedido{
     display:flex;
     height:100%;
     flex-direction:column;
     align-items:center;
     justify-content:space-evenly;
+
 }
 
-.info-produtos > p{
+.confirmarpedido > p{
     font-size:20px;
 }
 
-
-
-.nomepreco{
+.confirmarpedido > div{
     display:flex;
-
     width:200px;
     justify-content:space-between;
     
 }
 
-.comanda button{
+.box button{
     background: #FFFFFF;
     width: 329px;
     height: 52px;
